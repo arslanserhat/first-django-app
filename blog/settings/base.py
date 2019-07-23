@@ -25,7 +25,7 @@ SECRET_KEY = 'gie&bp-#3a0ndsa^nnd3o#rj1i9xv3rw&%s-+w+f(wt6l_w8zl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pytestpage.com', 'www.pytestpage.com']
 
 
 # Application definition
