@@ -1,5 +1,4 @@
-#!/home/serhat/Masaüstü/Django/venv/bin/python
-
+#!/home/serhat/pytest/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
