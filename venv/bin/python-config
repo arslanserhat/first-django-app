@@ -1,4 +1,4 @@
-#!/home/serhat/Masaüstü/Django/venv/bin/python
+#!/home/serhat/pytest/venv/bin/python
 
 import sys
 import getopt
