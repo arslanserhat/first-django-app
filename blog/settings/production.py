@@ -5,7 +5,7 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pytest',
+        'NAME': 'django',
         'USER': 'serhat',
         'PASSWORD': 'md21ty455'
     }
