@@ -13,6 +13,7 @@ body {
 
 .pagination-number {
     padding: 0.5em 0.8em;
+    margin: 5px;
     border-radius: 2px;
     color: #fff;
     background-color: #6D85C7;
