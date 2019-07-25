@@ -35,6 +35,10 @@ body {
     color: #3354AA;
 }
 
+h1 {
+    text-align: center;
+}
+
 .ask {
     display: block;
     margin-left: auto;
