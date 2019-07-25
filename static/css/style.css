@@ -34,3 +34,10 @@ body {
 .pagination-action:hover, .pagination-previous, .pagination-next {
     color: #3354AA;
 }
+
+.ask {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
