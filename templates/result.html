@@ -1,0 +1,37 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Pytest {% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        {% if noface %}
+        <div class="col-md-6">
+            <h2>No Face</h2>
+            <div class="slider">
+                {% for no_items in noface %}
+                    <img src="static/no_face/{{no_items}}" alt="">
+                {% endfor %}
+            </div>
+             <a href="{{noface_zip}}" download>
+                 <button class="btn-primary" type="submit">Download!</button>
+             </a>
+        </div>
+        {% endif %}
+        {% if hasface %}
+        <div class="col-md-6">
+            <h2>Has Face</h2>
+            <div class="slider">
+                {% for has_items in hasface %}
+                    <img src="static/has_face/{{has_items}}" alt="">
+                {% endfor %}
+            </div>
+            <a href="{{hasface_zip}}" download>
+                 <button class="btn-primary" type="submit">Download!</button>
+             </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

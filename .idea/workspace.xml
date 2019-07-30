@@ -2,292 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84a9845-957e-4dd6-aec6-58ff3f4ac903" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/temp/checkpoints/latest.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/temp/weights/yolo.weights" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/BoundBox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/coco2pascal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/custom_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/detector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/drawer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_file/utils/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/docprops.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/docprops.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embed/icons/embed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embed/icons/embed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image/images/noimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image2/icons/hidpi/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image2/icons/hidpi/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image2/icons/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/image2/icons/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/language/icons/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/language/icons/language.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/link/images/anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/mathjax/icons/hidpi/mathjax.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/mathjax/icons/hidpi/mathjax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/mathjax/icons/mathjax.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/mathjax/icons/mathjax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/placeholder/icons/hidpi/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/placeholder/icons/hidpi/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/placeholder/icons/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/placeholder/icons/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/icons/hidpi/uicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/icons/hidpi/uicolor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/widget/images/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/ckeditor/skins/moono/images/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/doc.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/doc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/ppt.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/ppt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/swf.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/swf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/txt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/file-icons/xls.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/file-icons/xls.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/ckeditor/galleriffic/css/caption.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ckeditor/galleriffic/css/caption.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/Anna.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/Anna.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/anna1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/anna1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/anna2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/anna2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/anna3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/anna3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/image/noimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/noimage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/orig-prefix.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/orig-prefix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.3.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.3.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.3.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.3.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Pillow-6.1.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Pillow-6.1.0.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/docprops.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/docprops.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embed/icons/embed.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embed/icons/embed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/flash/images/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/iframe/images/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image/images/noimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image2/icons/hidpi/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image2/icons/hidpi/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image2/icons/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/image2/icons/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/language/icons/language.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/language/icons/language.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/link/images/anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/mathjax/icons/hidpi/mathjax.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/mathjax/icons/hidpi/mathjax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/mathjax/icons/mathjax.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/mathjax/icons/mathjax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/placeholder/icons/hidpi/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/placeholder/icons/hidpi/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/placeholder/icons/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/placeholder/icons/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_address.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_blockquote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/showblocks/images/block_pre.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/envelope.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/heart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/kiss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/hidpi/sourcedialog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog-rtl.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog-rtl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/hidpi/uicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/hidpi/uicolor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/widget/images/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/icons_hidpi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/lock-open.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/lock-open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/lock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/ckeditor/skins/moono/images/refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/doc.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/doc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/ppt.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/ppt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/swf.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/swf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/txt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/xls.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/file-icons/xls.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/galleriffic/css/caption.png" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/ckeditor/static/ckeditor/galleriffic/css/caption.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/img/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/img/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/templates/registration/password_reset_subject.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/templates/registration/password_reset_subject.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/dispatch/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/dispatch/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/templates/technical_500.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/templates/technical_500.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_ckeditor-5.7.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_ckeditor-5.7.1.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_ckeditor-5.7.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_ckeditor-5.7.1.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_cleanup-4.0.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_cleanup-4.0.0.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_crispy_forms-1.7.2.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_crispy_forms-1.7.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_crispy_forms-1.7.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_crispy_forms-1.7.2.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_js_asset-1.2.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_js_asset-1.2.2.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_recaptcha-2.0.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django_recaptcha-2.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.1.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.2.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/psycopg2-2.8.3.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/psycopg2-2.8.3.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/psycopg2-2.8.3.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/psycopg2-2.8.3.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2019.1.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2019.1.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2019.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2019.1.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-41.0.1.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/entry_points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/wheel-0.33.4.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings/development.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/Anna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/anna1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/anna2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/anna3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -297,6 +33,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Django$views.coverage" NAME="views Coverage Results" MODIFIED="1563540181288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/post" />
+    <SUITE FILE_PATH="coverage/pytest$main.coverage" NAME="main Coverage Results" MODIFIED="1564470591243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1564482350345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/home" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -315,22 +53,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-              <folding>
-                <element signature="e#638#679#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -338,17 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="1224">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="1512">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
@@ -357,13 +86,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post/views.py">
+        <entry file="file://$PROJECT_DIR$/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="528">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
-                <element signature="e#15#110#0" expanded="true" />
+                <element signature="e#638#679#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/post/detail.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -375,6 +118,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -388,6 +132,7 @@
       <find>id</find>
       <find>post</find>
       <find>is_a</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -396,15 +141,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/blog/wsgi.py" />
+        <option value="$PROJECT_DIR$/blog/settings/development.py" />
+        <option value="$PROJECT_DIR$/blog/settings/base.py" />
+        <option value="$PROJECT_DIR$/static/js/slider.js" />
+        <option value="$PROJECT_DIR$/templates/accounts/form.html" />
+        <option value="$PROJECT_DIR$/post/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/home/forms.py" />
+        <option value="$PROJECT_DIR$/templates/result/result.html" />
+        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/models.py" />
+        <option value="$PROJECT_DIR$/home/urls.py" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/result.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2016" />
-    <option name="y" value="79" />
-    <option name="width" value="1717" />
-    <option name="height" value="972" />
+    <option name="x" value="1928" />
+    <option name="y" value="37" />
+    <option name="width" value="1910" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectId" id="1Ogpe6KIk7uHsH16iSqTrWNMtsi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -415,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,18 +187,41 @@
             <path>
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="project_file" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest" type="462c0819:PsiDirectoryNode" />
-              <item name="project_file" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="has_face" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="no_face" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,18 +234,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/result" />
       <recent name="$PROJECT_DIR$/blog/settings" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/static/image" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/static/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/project_file" />
       <recent name="$PROJECT_DIR$/static/image" />
       <recent name="$PROJECT_DIR$/staticfiles/js" />
       <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,7 +260,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views (1)">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$$PROJECT_DIR$/../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$$PROJECT_DIR$/../../../views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -501,6 +329,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.views (1)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
@@ -530,28 +360,31 @@
       <workItem from="1563956186525" duration="13754000" />
       <workItem from="1564042719890" duration="3908000" />
       <workItem from="1564059170780" duration="6914000" />
+      <workItem from="1564470046613" duration="15402000" />
+      <workItem from="1564487225595" duration="2289000" />
+      <workItem from="1564489537645" duration="1075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101938000" />
+    <option name="totallyTimeSpent" value="124313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19690502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20330843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31962025" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3195767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32169312" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32063493" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32947367" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -568,20 +401,203 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/post/comment.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/message.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/Anna.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/22730128_10155674556448190_8050260640797809274_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/Ekran Görüntüsü - 2019-07-18 15-34-36.png" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/22728844_10155674556478190_1295290424614919630_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/22549837_10155674556873190_3033080882492201417_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/08.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/0_175.jpg" />
+    <entry file="file://$PROJECT_DIR$/post/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/post/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/accounts/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/no_face/1_526.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/has_face/59634583_Xc_hlCc_DvLvsQq8rV_KOXNk75ncEcm4YqGeO7K7xR0.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/0_172.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/22688853_10155674556638190_2829185722987682475_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/Ekran Görüntüsü - 2019-07-30 11-27-45.png" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/61930764_856840984701448_2839135285743190016_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/22730128_10155674556448190_8050260640797809274_n.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/Ekran Görüntüsü - 2019-06-22 12-33-54.png" />
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2041">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/no_face/Ekran Görüntüsü - 2019-07-18 15-34-36.png" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/Ekran Görüntüsü - 2019-06-22 12-33-54.png" />
+    <entry file="file://$PROJECT_DIR$/media/Ekran Görüntüsü - 2019-07-30 11-26-31.png" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/Ekran Görüntüsü - 2019-06-25 14-44-30.png" />
+    <entry file="file://$PROJECT_DIR$/static/no_face/Ekran Görüntüsü - 2019-07-30 11-26-31.png" />
+    <entry file="file://$PROJECT_DIR$/post/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/no_face/Ekran Görüntüsü - 2019-07-30 11-27-45.png" />
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="1512">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="e#638#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/post/detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/has_face/anna serhat2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/anne3 serhat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/has_face/anne3 serhat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/has_face/0_193.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/no_face/0_172.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
