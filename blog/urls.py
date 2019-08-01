@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from home.views import home_view
+from home.views import home_view, api
 from django.conf.urls.static import static
 from django.conf import settings
 
@@ -23,6 +23,8 @@ from django.conf import settings
 urlpatterns = [
 
     url(r'^$', home_view, name='home'),
+
+    url(r'^api/', api, name='api'),
 
     url(r'^post/', include('post.urls')),
 

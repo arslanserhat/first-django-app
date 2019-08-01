@@ -3,7 +3,7 @@ import cv2
 from project_file.utils.network import yolo
 from project_file.utils.detector import detect
 from project_file.utils.drawer import draw_boxes
-import os, zipfile, time
+import os, zipfile
 import shutil
 
 
@@ -11,7 +11,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-process_path = '/media/'
+process_path = '/media/process/'
 
 model_file = 'project_file/temp/checkpoints/latest.h5'
 
@@ -20,6 +20,27 @@ min_threshold = 0.5
 model = yolo()
 
 model.load_weights(model_file)
+
+# def api_url(file):
+#     has_face = '/static/has_face/'
+#     no_face = '/static/no_face/'
+#     actual_file = dir_path + process_path + file
+#     image = cv2.imread(actual_file)
+#     image = cv2.resize(image, (416, 416))
+#     boxes, labels = detect(image, model)
+#     image = draw_boxes(image, boxes, labels)
+#     image = cv2.resize(image, (800, 600))
+#
+#
+#     result = False
+#     if len(boxes) > 0:
+#         for box in boxes:
+#             if box.label == 0:
+#                 if box.score > 0.50:
+#                     result = True
+#
+#     os.unlink(file)
+#     return result
 
 
 def predict(file):
@@ -62,10 +83,8 @@ def run():
         predict(file)
 
     if os.listdir(dir_path + '/static/no_face'):
-        shutil.make_archive('noface', 'zip', dir_path + '/static/no_face/')
+        shutil.make_archive(dir_path + '/media/result/noface', 'zip', dir_path + '/static/no_face/')
 
     if os.listdir(dir_path + '/static/has_face'):
-        shutil.make_archive('hasface', 'zip', dir_path + '/static/has_face/')
+        shutil.make_archive(dir_path + '/media/result/hasface', 'zip', dir_path + '/static/has_face/')
 
-def delete():
-    print('çalıştım bebeğim')

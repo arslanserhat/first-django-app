@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
 import time, os
 
-# Create your views here.
 def home_view(request):
 
     if request.user.is_authenticated:
@@ -29,32 +28,43 @@ def home_view(request):
         end_time = time.time() - start_time
         print(round(end_time, 2))
 
-        dir_path = os.path.abspath('..')
+        dir_path = os.path.abspath('../..')
 
         no_face = dir_path + '/static/no_face'
         has_face = dir_path + '/static/has_face'
 
         content = {
-            'uploaded_file_url': uploaded_file_url,
-            'hasface': os.listdir(has_face),
             'noface': os.listdir(no_face),
-            'noface_zip': '/media/noface.zip',
-            'hasface_zip': '/media/hasface.zip',
+            'hasface': os.listdir(has_face),
+            'noface_zip': '/media/result/noface.zip',
+            'hasface_zip': '/media/result/hasface.zip',
         }
 
         return render(request, 'result.html', content)
 
     return render(request, 'home.html', context)
 
-def result_page(request):
 
-    if request.GET.get('result'):
-        import  main
+def index(request):
 
-        main.delete()
+    if request.POST:
+        print('çalış bebeğim')
+        import delete
 
-    content = {
-        'sa': 'selam bebeğim'
-    }
+        delete.delete_items()
 
-    return render(request, 'result.html', content)
+    return render(request,'result.html')
+
+def api(request):
+    import main
+
+    myfile = request.GET.get('url', 'Not Found')
+
+
+    result = main.api_url(myfile)
+
+    print(result)
+
+
+    return render(request, 'home.html')
+
